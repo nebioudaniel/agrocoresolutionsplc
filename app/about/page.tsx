@@ -72,9 +72,9 @@ export default function AboutPage() {
                 Growing Agriculture, <span className="text-primary">Growing Ethiopia</span>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Agrocore Solutions PLC is a leading agricultural consulting firm based in 
-                Addis Ababa, Ethiopia. We specialize in agrochemical regulation, agricultural 
-                development, and environmental management, supporting sustainable agriculture 
+                Agrocore Solutions PLC is a leading agricultural consulting firm based in
+                Addis Ababa, Ethiopia. We specialize in agrochemical regulation, agricultural
+                development, and environmental management, supporting sustainable agriculture
                 across Ethiopia and beyond.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -137,9 +137,9 @@ export default function AboutPage() {
               </div>
               <h2 className="text-2xl font-bold text-foreground mb-4">Our Mission</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To provide specialized consulting services that support sustainable agriculture, 
-                ensure regulatory compliance, and promote responsible use of agro-inputs in 
-                Ethiopia and beyond. We are committed to helping our clients achieve their 
+                To provide specialized consulting services that support sustainable agriculture,
+                ensure regulatory compliance, and promote responsible use of agro-inputs in
+                Ethiopia and beyond. We are committed to helping our clients achieve their
                 goals while protecting the environment and supporting local communities.
               </p>
             </motion.div>
@@ -156,9 +156,9 @@ export default function AboutPage() {
               </div>
               <h2 className="text-2xl font-bold text-foreground mb-4">Our Vision</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To be the leading agricultural consulting firm in East Africa, recognized 
-                for our expertise, innovation, and commitment to sustainable development. 
-                We envision a future where agriculture thrives in harmony with nature, 
+                To be the leading agricultural consulting firm in East Africa, recognized
+                for our expertise, innovation, and commitment to sustainable development.
+                We envision a future where agriculture thrives in harmony with nature,
                 providing food security and economic prosperity for all.
               </p>
             </motion.div>
@@ -224,7 +224,7 @@ export default function AboutPage() {
               Our Executive Team
             </h2>
             <p className="text-muted-foreground">
-              Led by industry experts with decades of experience in agricultural 
+              Led by industry experts with decades of experience in agricultural
               and regulatory affairs.
             </p>
           </motion.div>
@@ -240,10 +240,10 @@ export default function AboutPage() {
               <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Users className="w-10 h-10 text-primary-foreground" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-1">Yonas W/hana</h3>
+              <h3 className="text-xl font-bold text-foreground mb-1">Hailu Meka</h3>
               <p className="text-primary font-medium text-sm mb-4">Chief Executive Officer (CEO)</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Providing strategic vision and operational leadership to drive 
+                Providing strategic vision and operational leadership to drive
                 Agrocore Solutions towards sustainable growth.
               </p>
             </motion.div>
@@ -262,7 +262,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-foreground mb-1">Mr. Tamirat Solomon (Msc)</h3>
               <p className="text-primary font-medium text-sm mb-4">Director of Regulatory Affairs & Technical Services</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Expert in agrochemical regulation and technical consulting, 
+                Expert in agrochemical regulation and technical consulting,
                 ensuring compliance and excellence in all service deliveries.
               </p>
             </motion.div>
@@ -281,7 +281,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-bold text-foreground mb-1">Addisalem Mebratu (PhD)</h3>
               <p className="text-primary font-medium text-sm mb-4">Director of Business Development & Partnerships</p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Driving innovation and strategic partnerships to expand our 
+                Driving innovation and strategic partnerships to expand our
                 impact across Ethiopia and the region.
               </p>
             </motion.div>
@@ -318,9 +318,8 @@ export default function AboutPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className={`flex items-center gap-8 ${
-                    index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
+                  className={`flex items-center gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                    }`}
                 >
                   <div className={`flex-1 ${index % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
                     <div className="bg-card p-6 rounded-2xl shadow-lg inline-block">
@@ -354,7 +353,7 @@ export default function AboutPage() {
                 Your Success is Our Priority
               </h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                We bring together deep expertise, practical experience, and a commitment 
+                We bring together deep expertise, practical experience, and a commitment
                 to excellence that sets us apart in the agricultural consulting industry.
               </p>
 
@@ -431,7 +430,7 @@ export default function AboutPage() {
               Let&apos;s Grow Together
             </h2>
             <p className="text-background/70 text-lg mb-8 leading-relaxed">
-              Partner with Agrocore Solutions for expert guidance in agricultural 
+              Partner with Agrocore Solutions for expert guidance in agricultural
               consulting, regulatory compliance, and sustainable development.
             </p>
             <Link href="/contact">
