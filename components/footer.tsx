@@ -1,8 +1,9 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { motion } from "framer-motion"
-import { Leaf, Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -16,13 +17,15 @@ export function Footer() {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-primary-foreground" />
+            <Link href="/" className="flex items-center">
+              <div className="relative w-48 h-20">
+                <Image
+                  src="/logo.png"
+                  alt="Agrocore Solutions Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
-              <span className="text-xl font-bold">
-                Agro<span className="text-primary">core</span>
-              </span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed">
               Specialized consulting services in agrochemical regulation, 
