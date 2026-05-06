@@ -17,6 +17,8 @@ import {
   CheckCircle2,
   Mail,
   Phone,
+  Monitor,
+  Briefcase,
 } from "lucide-react"
 
 const values = [
@@ -229,7 +231,7 @@ export default function AboutPage() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* CEO */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -283,6 +285,44 @@ export default function AboutPage() {
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Driving innovation and strategic partnerships to expand our
                 impact across Ethiopia and the region.
+              </p>
+            </motion.div>
+
+            {/* Tsion Meka */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="bg-card p-8 rounded-2xl shadow-xl text-center border border-border/50 hover:border-primary/50 transition-colors group"
+            >
+              <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Monitor className="w-10 h-10 text-primary-foreground" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-1">Tsion Meka</h3>
+              <p className="text-primary font-medium text-sm mb-4">Marketing and IT Support</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Enhancing our digital presence and providing essential technical 
+                support to streamline our consulting operations.
+              </p>
+            </motion.div>
+
+            {/* Robel Temesgen */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="bg-card p-8 rounded-2xl shadow-xl text-center border border-border/50 hover:border-primary/50 transition-colors group"
+            >
+              <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Briefcase className="w-10 h-10 text-primary-foreground" />
+              </div>
+              <h3 className="text-xl font-bold text-foreground mb-1">Robel Temesgen (Msc)</h3>
+              <p className="text-primary font-medium text-sm mb-4">Project Management</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Ensuring efficient project execution and delivery, maintaining 
+                the high standards of quality our clients expect.
               </p>
             </motion.div>
           </div>
